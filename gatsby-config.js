@@ -23,12 +23,12 @@ module.exports = {
         path: './src/static/',
       },
     },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        path: './src/images/',
-      },
-    },
+    // {
+    //   resolve: 'gatsby-source-filesystem',
+    //   options: {
+    //     path: './src/images/',
+    //   },
+    // },
     {
       resolve: 'gatsby-alias-imports',
       options: {
@@ -67,18 +67,18 @@ module.exports = {
         },
       },
     },
-    {
-      resolve: 'gatsby-plugin-manifest',
-      options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
-        start_url: '/',
-        background_color: '#e1e1e1',
-        theme_color: '#e1e1e1',
-        display: 'minimal-ui',
-        icon: 'src/images/favicon.png', // This path is relative to the root of the site.
-      },
-    },
+    // {
+    //   resolve: 'gatsby-plugin-manifest',
+    //   options: {
+    //     name: 'gatsby-starter-default',
+    //     short_name: 'starter',
+    //     start_url: '/',
+    //     background_color: '#e1e1e1',
+    //     theme_color: '#e1e1e1',
+    //     display: 'minimal-ui',
+    //     icon: 'src/images/favicon.png', // This path is relative to the root of the site.
+    //   },
+    // },
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     'gatsby-plugin-sitemap',
