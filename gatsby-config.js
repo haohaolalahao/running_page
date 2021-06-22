@@ -4,16 +4,16 @@ module.exports = {
     title: 'Running page',
     siteUrl: 'https://running-page-indol.vercel.app/',
     description: 'Personal site and blog',
-    navLinks: [
-      {
-        name: 'Blog',
-        url: 'https://yihong.run/running',
-      },
-      {
-        name: 'About',
-        url: 'https://github.com/yihong0618/running_page/blob/master/README-CN.md',
-      },
-    ],
+    // navLinks: [
+    //   {
+    //     name: 'Blog',
+    //     url: 'https://yihong.run/running',
+    //   },
+    //   {
+    //     name: 'About',
+    //     url: 'https://github.com/yihong0618/running_page/blob/master/README-CN.md',
+    //   },
+    // ],
   },
   plugins: [
     'gatsby-transformer-json',
